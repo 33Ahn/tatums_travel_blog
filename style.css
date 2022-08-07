@@ -1,0 +1,31 @@
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-image: url("https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHN1bnNldHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60");  
+    background-size: cover;  
+    color: white;
+}
+
+body {
+    background-color: rgb(237, 221, 237);
+}
+
+article {
+    background-image: linear-gradient(rgb(217, 231, 240), rgb(236, 192, 236));
+}
+
+/* link styles */
+a {
+    color: lightseagreen;
+    text-decoration: underline wavy purple;
+}
+
+a:hover {
+    color: purple;
+}
