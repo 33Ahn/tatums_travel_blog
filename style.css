@@ -7,9 +7,26 @@ h3 {
 }
 
 header {
-    background-image: url("https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHN1bnNldHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60");  
+    background-image: url("https://images.unsplash.com/photo-1604725333736-1f962a6218d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwc3Vuc2V0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60");  
     background-size: cover;  
-    color: white;
+    color: white;     
+}
+
+#main-title {
+    text-shadow: 3px 3px lightblue;
+}
+
+img, header, article {
+    border-radius: .75em;
+    box-shadow: 10px 10px rgb(215, 146, 215);
+}
+
+header, article {
+    padding-left: 20px;
+}
+
+.subheading {
+    border-bottom-style: solid;
 }
 
 body {
@@ -23,9 +40,16 @@ article {
 /* link styles */
 a {
     color: lightseagreen;
-    text-decoration: underline wavy purple;
+    text-decoration: underline wavy lightseagreen;
 }
 
 a:hover {
     color: purple;
+}
+
+img {
+    display: block;
+    height: 20%;
+    border: 3px solid lightseagreen;
+    margin-bottom: 20px;
 }
